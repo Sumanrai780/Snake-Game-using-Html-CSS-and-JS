@@ -97,21 +97,6 @@ function gameEngine() {
     board.appendChild(foodElement);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 // Main logic starts here
 let hiscore = localStorage.getItem("hiscore");
 if (hiscore === null) {
